@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Website</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#intro">Anu Siraj</a> |
+            <a href="#techstack">Tech Stack</a> |
+            <a href="#books">Favourite Books</a> |
+            <a href="#contact">Ask Me</a>
+        </nav>
+    </header>
+    <main>
+        <section id = "intro">
+            <h1>Anu Siraj</h1>
+            <audio controls>
+                <source src="" type="audio/ogg">
+            </audio>
+            <p>
+                <i>Software Developer</i><br>
+                <i><a href="mailto:anu.jencir@gmail.com">anu.jencir@gmail.com</a></i><br>
+                <i><a href="tel:+358413651884">+358413651884</a></i><br>
+                <i>Helsinki, Finland</i>
+            </p>
+            <p>
+               I am a passionate Software Developer. Currently I'm studying Full Stack at Integrify Academy.
+               I am looking to improve my technical knowledge and getting some real time project experience.
+               Hope I will land on Software job finally.
+            </p>
+        </section>
+        <section id = "places">
+            <h2>Places I have been</h2>
+            <table>
+                <tr>
+                  <th>City</th>
+                  <th>Country</th>
+                  <th>Duration</th>
+                </tr>
+                <tr>
+                  <td>Kerala</td>
+                  <td>India</td>
+                  <td>24</td>
+                </tr>
+                <tr>
+                  <td>Helsinki</td>
+                  <td>Finland</td>
+                  <td>4 years</td>
+                </tr>
+            </table>
+            <hr>
+        </section>
+        <section id = "techstack">
+            <h2>Tech stack</h2>
+            <ol type="1">
+                <li>
+                    Frontend
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>React</li>
+                        <li>Redux</li>
+                    </ul> 
+                </li>
+                <li>Other programming languages: PHP, Python</li>
+                <li>Web Designing using Wordpress, Wix & Webflow</li>
+              </ol>  
+              <hr>
+        </section>
+        <section id = "books">
+            <h2>Favourite books</h2>
+            <ul>
+                <li>Romeo and Juliet - 
+                    <i>William Shakespeare</i>
+                </li>
+                <li>Oliver Twist - 
+                    <i>Charles Dickens</i>
+                </li>
+                <li>The Chronicles of Narnia - 
+                    <i>C. S Lewis</i>
+                </li>
+            </ul> 
+            <hr>
+        </section>
+        <section id = "contact">
+            <h2>Ask me a question</h2>
+            <form action="mailto:anu.jencir@gmail.com" method="post" enctype="text/plain">
+                <label>Full name</label><br>
+                <input type="text" name="name" ><br>
+                <label>Your email</label><br>
+                <input type="text" name="mail"><br>
+                <label for="topics">Choose a topic</label><br>
+                    <select name="topics" id="topics">
+                        <option value="debugging">Debugging</option>
+                        <option value="syntaxes">Syntaxes</option>
+                        <option value="algorithm">Algorithm</option>
+                        <option value="packages">Packages</option>
+                        <option value="workflow">Workflow</option>
+                    </select><br>
+                <label>File name which contains the error</label><br>
+                <input type="text" name="file"><br>
+                <label>Explain your issue in detail</label><br>
+                <textarea rows="10" cols="50" name="comment" form="usrform">
+                    </textarea><br>
+                <p>Add the screenshot from you codes
+                <input type="file" id="myFile" name="filename"></p>
+                <input type="submit" value="Send Request" aria-label="Send Request" />
+                </form>
+              <hr>
+        </section>
+    </main>
+    <footer>
+        <p>© Made by Anu with ♥</p>
+    </footer>
+</body>
+</html>
